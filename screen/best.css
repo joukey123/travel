@@ -3,6 +3,7 @@
   display: flex;
   flex-wrap: wrap;
 }
+
 .popularLocation-nation > li {
   width: 45%;
   max-height: 100%;
