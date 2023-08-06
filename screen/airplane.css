@@ -150,14 +150,15 @@ input[type="radio"] {
 }
 
 .info-airplan {
-  width: 150px;
+  width: 160px;
   line-height: 10px;
 }
 
 .airplane-contents__info p:last-child {
-  width: 30%;
+  width: 20%;
   text-align: end;
   line-height: 30px;
+  font-size: 11px;
 }
 
 .airplane-contets__price {

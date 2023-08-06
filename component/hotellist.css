@@ -43,6 +43,7 @@
 .list-contents__info-rating i {
   /* color: #d5d5d5; */
   margin-right: -3px;
+  font-size: 10px;
 }
 .list-contents__info-price {
   text-align: right;
