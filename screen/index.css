@@ -1,13 +1,8 @@
-@import "/reset.css";
-@import "./component/font-style.css"; /*전체 폰트 스타일*/
-@import "./component/component-style.css"; /*각 주제별 패팅 값*/
-
-@import "/css/component/header.css"; /*상단 상태바*/
-@import "/css/component/nav.css"; /*하단 메뉴*/
-
-@import "/css/component/display.css";
-
-body {
+.login-img {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
   background: url("https://images.unsplash.com/photo-1500835556837-99ac94a94552?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Mzc0NDd8MHwxfHNlYXJjaHw1NHx8YWlycGxhbmV8ZW58MHx8fHwxNjkxMzQxODIxfDA&ixlib=rb-4.0.3&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450")
     no-repeat fixed;
   background-size: cover;

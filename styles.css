@@ -1,0 +1,15 @@
+@import "reset.css";
+
+@import "screen/airplane.css";
+@import "screen/best.css";
+@import "screen/home.css";
+@import "screen/hotel.css";
+@import "screen/index.css";
+
+@import "component/componentstyle.css";
+@import "component/display.css";
+@import "component/fontstyle.css";
+@import "component/header.css";
+@import "component/hotellist.css";
+@import "component/mainimg.css";
+@import "component/nav.css";

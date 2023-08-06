@@ -1,12 +1,3 @@
-@import "/reset.css";
-@import "./component/font-style.css"; /*전체 폰트 스타일*/
-@import "./component/component-style.css"; /*각 주제별 패팅 값*/
-
-@import "/css/component/header.css"; /*상단 상태바*/
-@import "/css/component/nav.css"; /*하단 메뉴*/
-
-@import "/css/component/display.css";
-
 .bestLocation {
   overflow: hidden;
 }
