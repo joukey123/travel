@@ -1,0 +1,20 @@
+#screen {
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1583150647472-d239652a12f5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Mzc0NDd8MHwxfHNlYXJjaHwyM3x8YWlycGxhbmV8ZW58MHx8fHwxNjkxMzMwMzM5fDA&ixlib=rb-4.0.3&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450")
+    no-repeat fixed;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 480px) and (max-width: 750px) {
+  #screen {
+    display: none;
+  }
+}

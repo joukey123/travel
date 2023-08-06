@@ -1,0 +1,93 @@
+@import "/reset.css";
+@import "./component/font-style.css"; /*전체 폰트 스타일*/
+@import "./component/component-style.css"; /*각 주제별 패팅 값*/
+
+@import "/css/component/header.css"; /*상단 상태바*/
+@import "/css/component/nav.css"; /*하단 메뉴*/
+
+@import "/css/component/display.css";
+
+body {
+  background: url("https://images.unsplash.com/photo-1500835556837-99ac94a94552?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Mzc0NDd8MHwxfHNlYXJjaHw1NHx8YWlycGxhbmV8ZW58MHx8fHwxNjkxMzQxODIxfDA&ixlib=rb-4.0.3&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450")
+    no-repeat fixed;
+  background-size: cover;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50%;
+}
+.logo > i {
+  font-size: 100px;
+  color: white;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  animation: shape 5s ease-in-out;
+}
+.logo-title {
+  opacity: 1;
+  animation: opa 8s ease-in-out;
+}
+.logo-title > h1 {
+  font-size: 70px;
+  font-weight: 800;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.login-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50%;
+}
+
+.login-box > a {
+  width: 40%;
+  height: 50px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.email-login {
+  display: flex;
+  justify-content: center;
+}
+
+.email-login > i {
+  width: 30%;
+  height: 30px;
+  padding-top: 2px;
+  font-size: 25px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.email-login > h2 {
+  font-size: 18px;
+  padding: 2px;
+  text-align: center;
+}
+
+@keyframes shape {
+  from {
+    transform: translateX(-300px) translateY(-300px) rotate(180deg);
+  }
+  50% {
+    transform: translateX(100px) translateY(-200px) rotate(45deg);
+  }
+  to {
+  }
+}
+
+@keyframes opa {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,24 @@
+.status-bar {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  padding: 50px 20px;
+  background-color: white;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+.status-bar__time {
+  width: 50%;
+  font-weight: bold;
+}
+.status-bar__icons {
+  width: 50%;
+  text-align: end;
+}
+.status-bar__icons > i {
+  margin-left: 5px;
+}

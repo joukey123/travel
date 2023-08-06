@@ -1,0 +1,213 @@
+@import "/reset.css";
+@import "./component/font-style.css"; /*전체 폰트 스타일*/
+@import "./component/component-style.css"; /*각 주제별 패팅 마진 값*/
+
+@import "/css/component/header.css"; /*상단 상태바*/
+@import "/css/component/main-img.css";
+@import "/css/component/hotel-list.css";
+@import "/css/component/nav.css"; /*하단 메뉴*/
+
+@import "/css/component/display.css";
+
+.bestLocation-nation__title {
+  background-color: #1aadec;
+  border-radius: 30px;
+}
+
+.bestLocation-nation__title > img {
+  border-radius: 30px 30px 0 0;
+}
+
+.searchBar {
+  padding: 15px;
+}
+.searchBar-air {
+  display: flex;
+  flex-direction: column;
+}
+.searchBar-air__destination {
+  width: 99%;
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+}
+.start,
+.destination {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.icons {
+  width: 10%;
+  text-align: center;
+}
+.searchBar-air__date {
+  display: flex;
+  margin-bottom: 15px;
+}
+.checkin,
+.checkout,
+.people {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="date"] {
+  border-radius: 15px;
+}
+input[type="date"]::before {
+  content: attr(date-placeholder);
+  width: 100%;
+  color: rgba(0, 0, 0, 0.3);
+}
+input[type="date"]:valid::before {
+  display: none;
+}
+input[type="date"]:valid {
+  font-size: 12px;
+  padding: 5px;
+}
+
+.searchBar-air__btn {
+  width: 99%;
+  display: flex;
+  align-items: center;
+}
+
+.btn-filter {
+  width: 66%;
+  display: flex;
+  align-items: center;
+}
+.btn-submit {
+  width: 33%;
+  text-align: end;
+}
+.btn-filter > small {
+  margin-left: 5px;
+}
+.btn-filter > label {
+  margin-left: 0px;
+  margin-top: 3px;
+}
+input[type="radio"] {
+  margin-left: 10px;
+}
+.keywords-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.keywords-list__contents {
+  border: 1px solid #ec325f;
+  width: 20%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.keywords-list__contents:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: #ec325f;
+}
+.keywords-list__contents:hover p {
+  transition: all 0.2s ease-in-out;
+  color: white;
+}
+
+.keywords-list__contents p {
+  color: #ec325f;
+  font-size: 16px;
+}
+
+.uniqueHotel-list__contents {
+  padding: 3%;
+}
+
+.airplane-keywords {
+  display: flex;
+  justify-content: center;
+}
+.airplane-keywords__contents {
+  background-color: #ec325f;
+  width: 40%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  margin: 3%;
+  margin-bottom: 30px;
+}
+
+.airplane-keywords__contents > p {
+  color: white;
+  font-size: 13px;
+}
+
+.airplane-contents__info {
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.airplane-contents__info > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.info-airplan {
+  width: 150px;
+  line-height: 10px;
+}
+
+.airplane-contents__info p:last-child {
+  width: 30%;
+  text-align: end;
+  line-height: 30px;
+}
+
+.airplane-contets__price {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.price-info {
+  width: 50%;
+}
+
+.airplane-contets__price > p:last-child {
+  width: 50%;
+  text-align: end;
+  font-weight: bold;
+  color: #1aadec;
+}
+.banner {
+  position: relative;
+  cursor: pointer;
+}
+.banner:hover img {
+  transition: all 0.5s ease-in-out;
+  filter: brightness(80%);
+}
+.banner img {
+  width: 95%;
+  height: 100px;
+  border-radius: 25px;
+  filter: brightness(30%);
+}
+.banner-text {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+h2 {
+  width: 200px;
+}
+.price-info + p {
+  cursor: pointer;
+}

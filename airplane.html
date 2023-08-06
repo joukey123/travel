@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel</title>
+    <link rel="stylesheet" href="css/airplane.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="status-bar">
+          <div class="status-bar__time">16:16</div>
+          <div class="_blank"></div>
+          <div class="status-bar__icons">
+            <i class="fa-solid fa-signal"></i>
+            <i class="fa-solid fa-wifi"></i>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="bestLocation-nation">
+          <h1>항공권</h1>
+
+          <div class="bestLocation-nation__title">
+            <img
+              src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Mzc0NDd8MHwxfHNlYXJjaHwyfHxhaXJwbGFuZXxlbnwwfHx8fDE2OTEzMzAzMzl8MA&ixlib=rb-4.0.3&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450"
+            />
+            <div class="bestLocation-nation__text">
+              <h2 class="white">전 세계 항공권<br />특가 상품</h2>
+              <h3 class="white">
+                가장 저렴한 가격의 <br />특가 항공권을 만나보세요.
+              </h3>
+            </div>
+            <div class="searchBar">
+              <form class="searchBar-air">
+                <div class="searchBar-air__destination">
+                  <div class="start">
+                    <label for="start-nation">출발지</label>
+                    <input
+                      id="start-nation"
+                      type="text"
+                      placeholder="대한민국"
+                    />
+                  </div>
+                  <div class="icons">
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                  </div>
+                  <div class="destination">
+                    <label for="destination-nation">도착지</label>
+                    <input
+                      id="destination-nation"
+                      type="text"
+                      placeholder="프랑스, 파리"
+                    />
+                  </div>
+                </div>
+                <div class="searchBar-air__date">
+                  <div class="checkin">
+                    <label for="checkin-box">가는날</label>
+                    <input
+                      id="checkin-box"
+                      type="date"
+                      required
+                      date-placeholder="가는날"
+                    />
+                  </div>
+                  <div class="checkout">
+                    <label for="checkout-box">오는날</label>
+                    <input
+                      id="checkout-box"
+                      type="date"
+                      required
+                      date-placeholder="오는날"
+                    />
+                  </div>
+                  <div class="people">
+                    <label for="people-box">승객 및 좌석</label>
+                    <input id="people-box" type="text" value="성인 1명, 일반" />
+                  </div>
+                </div>
+                <div class="searchBar-air__btn">
+                  <div class="btn-filter">
+                    <input type="radio" id="cancel" name="trip" />
+                    <label for="cancel">왕복</label>
+                    <input type="radio" id="breakfast" name="trip" />
+                    <label for="breakfast">편도</label>
+                    <input type="radio" id="star" name="trip" />
+                    <label for="star">다구간</label>
+                  </div>
+                  <div class="btn-submit">
+                    <input type="submit" value="항공권 검색 &rarr;" />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="keywords">
+          <h1>인기 키워드</h1>
+          <div class="keywords-list">
+            <div class="keywords-list__contents">
+              <p>#호캉스</p>
+            </div>
+            <div class="keywords-list__contents">
+              <p>#초특가</p>
+            </div>
+            <div class="keywords-list__contents">
+              <p>#골프</p>
+            </div>
+            <div class="keywords-list__contents">
+              <p>#축제</p>
+            </div>
+            <div class="keywords-list__contents">
+              <p>#2박3일</p>
+            </div>
+            <div class="keywords-list__contents">
+              <p>#방콕</p>
+            </div>
+            <div class="keywords-list__contents">
+              <p>#일본</p>
+            </div>
+            <div class="keywords-list__contents">
+              <p>#반려동물</p>
+            </div>
+          </div>
+        </div>
+        <div class="banner">
+          <img
+            src="https://images.unsplash.com/photo-1630879937467-4afa290b1a6b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Mzc0NDd8MHwxfHNlYXJjaHwyfHxza3lkaXZpbmd8ZW58MHx8fHwxNjkxMzM1NjE5fDA&ixlib=rb-4.0.3&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450"
+          />
+          <div class="banner-text">
+            <h2 class="white">레저 사전등록 이벤트</h2>
+            <p class="white">🥰 사전등록 고객 반값 쿠폰 선물!</p>
+          </div>
+        </div>
+        <div class="uniqueHotel">
+          <h1>지금 뜨는 특가</h1>
+          <div class="uniqueHotel-list">
+            <div class="uniqueHotel-list__contents">
+              <div class="airplane-keywords">
+                <div class="airplane-keywords__contents">
+                  <p>#초특가</p>
+                </div>
+                <div class="airplane-keywords__contents">
+                  <p>#방콕</p>
+                </div>
+                <div class="airplane-keywords__contents">
+                  <p>#호캉스</p>
+                </div>
+              </div>
+              <div class="airplane-contents__nation">
+                <h2>방콕</h2>
+                <small>가는날</small>
+                <div class="airplane-contents__info">
+                  <img src="/img/koreanairlog.png" />
+                  <div class="info-airplan">
+                    <p>10월 11일 (수)</p>
+                    <small>대한항공</small>
+                  </div>
+                  <p>직항</p>
+                </div>
+                <small>오는날</small>
+                <div class="airplane-contents__info">
+                  <img src="/img/koreanairlog.png" />
+                  <div class="info-airplan">
+                    <p>10월 11일 (수)</p>
+                    <small>대한항공</small>
+                  </div>
+                  <p>직항</p>
+                </div>
+
+                <div class="airplane-contets__price">
+                  <div class="price-info">
+                    <small>왕복</small>
+                    <h2>500,000원</h2>
+                  </div>
+                  <p>GO &rarr;</p>
+                </div>
+              </div>
+            </div>
+            <div class="uniqueHotel-list__contents">
+              <div class="airplane-keywords">
+                <div class="airplane-keywords__contents">
+                  <p>#초특가</p>
+                </div>
+                <div class="airplane-keywords__contents">
+                  <p>#2박3일</p>
+                </div>
+              </div>
+              <div class="airplane-contents__nation">
+                <h2>일본</h2>
+                <small>가는날</small>
+                <div class="airplane-contents__info">
+                  <img src="/img/t.png" />
+                  <div class="info-airplan">
+                    <p>10월 19일 (수)</p>
+                    <small>티웨이</small>
+                  </div>
+                  <p>직항</p>
+                </div>
+                <small>오는날</small>
+                <div class="airplane-contents__info">
+                  <img src="/img/t.png" />
+                  <div class="info-airplan">
+                    <p>10월 21일 (금)</p>
+                    <small>티웨이</small>
+                  </div>
+                  <p>직항</p>
+                </div>
+
+                <div class="airplane-contets__price">
+                  <div class="price-info">
+                    <small>왕복</small>
+                    <h2>300,000원</h2>
+                  </div>
+                  <p>GO &rarr;</p>
+                </div>
+              </div>
+            </div>
+            <div class="uniqueHotel-list__contents">
+              <div class="airplane-keywords">
+                <div class="airplane-keywords__contents">
+                  <p>#초특가</p>
+                </div>
+                <div class="airplane-keywords__contents">
+                  <p>#골프</p>
+                </div>
+              </div>
+              <div class="airplane-contents__nation">
+                <h2>뉴질랜드</h2>
+                <small>가는날</small>
+                <div class="airplane-contents__info">
+                  <img src="/img/koreanairlog.png" />
+                  <div class="info-airplan">
+                    <p>12월 11일 (월)</p>
+                    <small>대한항공</small>
+                  </div>
+                  <p>직항</p>
+                </div>
+                <small>오는날</small>
+                <div class="airplane-contents__info">
+                  <img src="/img/koreanairlog.png" />
+                  <div class="info-airplan">
+                    <p>12월 20일 (목)</p>
+                    <small>대한항공</small>
+                  </div>
+                  <p>직항</p>
+                </div>
+
+                <div class="airplane-contets__price">
+                  <div class="price-info">
+                    <small>왕복</small>
+                    <h2>1,200,000원</h2>
+                  </div>
+                  <p>GO &rarr;</p>
+                </div>
+              </div>
+            </div>
+            <div class="uniqueHotel-list__contents">
+              <div class="airplane-keywords">
+                <div class="airplane-keywords__contents">
+                  <p>#초특가</p>
+                </div>
+                <div class="airplane-keywords__contents">
+                  <p>#축제</p>
+                </div>
+              </div>
+              <div class="airplane-contents__nation">
+                <h2>호주</h2>
+                <small>가는날</small>
+                <div class="airplane-contents__info">
+                  <img src="/img/a.png" />
+                  <div class="info-airplan">
+                    <p>10월 11일 (수)</p>
+                    <small>아시아나</small>
+                  </div>
+                  <p>직항</p>
+                </div>
+                <small>오는날</small>
+                <div class="airplane-contents__info">
+                  <img src="/img/a.png" />
+                  <div class="info-airplan">
+                    <p>10월 11일 (수)</p>
+                    <small>아시아나</small>
+                  </div>
+                  <p>직항</p>
+                </div>
+
+                <div class="airplane-contets__price">
+                  <div class="price-info">
+                    <small>왕복</small>
+                    <h2>500,000원</h2>
+                  </div>
+                  <p>GO &rarr;</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <nav>
+        <div class="menu">
+          <ul class="menu-icons">
+            <a href="hotel.html"
+              ><li>
+                <i class="fa-solid fa-bed"></i>
+              </li>
+            </a>
+            <a href="airplane.html"
+              ><li>
+                <i class="fa-solid fa-plane-up blue"></i>
+              </li>
+            </a>
+            <a href="home.html"
+              ><li>
+                <i class="fa-solid fa-house"></i>
+              </li>
+            </a>
+            <a href="home.html"
+              ><li>
+                <i class="fa-solid fa-person-biking"></i>
+              </li>
+            </a>
+            <a href="index.html"
+              ><li>
+                <i class="fa-solid fa-user"></i>
+              </li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div id="screen">
+      <h1 class="white">
+        화면 조정 중입니다. <br />
+        화면 창을 줄여주세요.
+      </h1>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/cfabfc7038.js"
+    crossorigin="anonymous"
+  ></script>
+</html>

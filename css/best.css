@@ -1,0 +1,36 @@
+@import "/reset.css";
+@import "./component/font-style.css"; /*전체 폰트 스타일*/
+@import "./component/component-style.css"; /*각 주제별 패팅 마진 값*/
+
+@import "/css/component/header.css"; /*상단 상태바*/
+@import "/css/component/main-img.css";
+@import "/css/component/hotel-list.css";
+@import "/css/component/nav.css"; /*하단 메뉴*/
+
+@import "/css/component/display.css";
+
+.popularLocation-nation {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.popularLocation-nation > li {
+  width: 45%;
+  max-height: 100%;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.popularLocation-nation > li > img {
+  width: 70px;
+  height: 75px;
+  border-radius: 12px 0 0 12px;
+}
+
+.nation-contents__text {
+  padding: 15px;
+  margin-top: 3px;
+}

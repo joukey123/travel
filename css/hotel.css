@@ -1,0 +1,87 @@
+@import "/reset.css";
+@import "./component/font-style.css"; /*전체 폰트 스타일*/
+@import "./component/component-style.css"; /*각 주제별 패팅 마진 값*/
+
+@import "/css/component/header.css"; /*상단 상태바*/
+@import "/css/component/main-img.css";
+@import "/css/component/hotel-list.css";
+@import "/css/component/nav.css"; /*하단 메뉴*/
+
+@import "/css/component/display.css";
+
+.bestLocation-nation__title {
+  background-color: #1aadec;
+  border-radius: 30px;
+}
+
+.bestLocation-nation__title > img {
+  border-radius: 30px 30px 0 0;
+}
+
+.searchBar {
+  padding: 15px;
+}
+.searchBar-hotel {
+  display: flex;
+  flex-direction: column;
+}
+.searchBar-hotel__destination {
+  width: 99%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.searchBar-hotel__date {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.checkin,
+.checkout,
+.people {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="date"] {
+  border-radius: 15px;
+}
+input[type="date"]::before {
+  content: attr(date-placeholder);
+  width: 100%;
+  color: rgba(0, 0, 0, 0.3);
+}
+input[type="date"]:valid::before {
+  display: none;
+}
+input[type="date"]:valid {
+  font-size: 12px;
+  padding: 5px;
+}
+
+.searchBar-hotel__btn {
+  width: 99%;
+  display: flex;
+  align-items: center;
+}
+
+.btn-filter {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+.btn-submit {
+  width: 29%;
+  text-align: end;
+}
+.btn-filter > small {
+  margin-left: 5px;
+}
+.btn-filter > label {
+  margin-left: 0px;
+  margin-top: 3px;
+}
+input[type="checkbox"] {
+  margin-left: 10px;
+}

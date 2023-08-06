@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel</title>
+    <link rel="stylesheet" href="css/hotel.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="status-bar">
+          <div class="status-bar__time">16:16</div>
+          <div class="_blank"></div>
+          <div class="status-bar__icons">
+            <i class="fa-solid fa-signal"></i>
+            <i class="fa-solid fa-wifi"></i>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="bestLocation-nation">
+          <h1>호텔</h1>
+
+          <div class="bestLocation-nation__title">
+            <img
+              src="https://images.unsplash.com/photo-1566073771259-6a8506099945?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Mzc0NDd8MHwxfHNlYXJjaHw2fHxob3RlbHxlbnwwfHx8fDE2OTEyNDEyODN8MA&ixlib=rb-4.0.3&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450"
+            />
+            <div class="bestLocation-nation__text">
+              <h2 class="white">마음에 드는 호텔, 특별한 가격</h2>
+              <h3 class="white">특가 상품으로 <br />좋은 여행하세요.</h3>
+            </div>
+            <div class="searchBar">
+              <form class="searchBar-hotel">
+                <div class="searchBar-hotel__destination">
+                  <label for="where">어디 놀러가세요?</label>
+                  <input
+                    id="where"
+                    type="text"
+                    placeholder="목적지 또는 호텔이름을 입력하세요."
+                  />
+                </div>
+                <div class="searchBar-hotel__date">
+                  <div class="checkin">
+                    <label for="checkin-box">체크인</label>
+                    <input
+                      id="checkin-box"
+                      type="date"
+                      required
+                      date-placeholder="체크인"
+                    />
+                  </div>
+                  <div class="checkout">
+                    <label for="checkout-box">체크아웃</label>
+                    <input
+                      id="checkout-box"
+                      type="date"
+                      required
+                      date-placeholder="체크아웃"
+                    />
+                  </div>
+                  <div class="people">
+                    <label for="people-box">투숙객 및 객실</label>
+                    <input id="people-box" type="text" value="성인 2명, 1개" />
+                  </div>
+                </div>
+                <div class="searchBar-hotel__btn">
+                  <div class="btn-filter">
+                    <small>필터 : </small>
+                    <input type="checkbox" id="cancel" />
+                    <label for="cancel">무료취소</label>
+                    <input type="checkbox" id="breakfast" />
+                    <label for="breakfast">조식포함</label>
+                    <input type="checkbox" id="star" />
+                    <label for="star">4성급</label>
+                  </div>
+                  <div class="btn-submit">
+                    <input type="submit" value="호텔검색 &rarr;" />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="uniqueHotel">
+          <h1>특별한 호캉스</h1>
+          <div class="uniqueHotel-list">
+            <div class="uniqueHotel-list__contents">
+              <img
+                src="https://images.unsplash.com/photo-1592229506151-845940174bb0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Mzc0NDd8MHwxfHNlYXJjaHwzfHxwYXJpcyUyMGhvdGVsfGVufDB8fHx8MTY5MTMxMzIwNXww&ixlib=rb-4.0.3&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450"
+              />
+              <div class="list-contents__text">
+                <small>
+                  <i class="fa-solid fa-map-pin"></i>
+                  파리 도심 위치
+                </small>
+                <h2>호텔 인 파리</h2>
+                <div class="list-contents__info">
+                  <small class="list-contents__info-rating">
+                    <i class="fa-solid fa-star red"></i>
+                    <i class="fa-solid fa-star red"></i>
+                    <i class="fa-solid fa-star red"></i>
+                    <i class="fa-solid fa-star red"></i>
+                    <i class="fa-solid fa-star gray"></i>
+                  </small>
+                  <div class="list-contents__info-price">
+                    <small class="italic">1박 기준</small>
+                    <p>150,000원</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="uniqueHotel-list__contents">
+              <img
+                src="https://images.unsplash.com/photo-1566073771259-6a8506099945?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Mzc0NDd8MHwxfHNlYXJjaHw2fHxob3RlbHxlbnwwfHx8fDE2OTEyNDEyODN8MA&ixlib=rb-4.0.3&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450"
+              />
+              <div class="list-contents__text">
+                <small>
+                  <i class="fa-solid fa-map-pin"></i>
+                  이탈리아 외곽 위치
+                </small>
+                <h2>이탈리아 Hotel</h2>
+                <div class="list-contents__info">
+                  <small class="list-contents__info-rating">
+                    <i class="fa-solid fa-star red"></i>
+                    <i class="fa-solid fa-star red"></i>
+                    <i class="fa-solid fa-star red"></i>
+                    <i class="fa-solid fa-star red"></i>
+                    <i class="fa-solid fa-star red"></i>
+                  </small>
+                  <div class="list-contents__info-price">
+                    <small class="italic">1박 기준</small>
+                    <p>250,000원</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="uniqueHotel-list__contents">
+              <img
+                src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Mzc0NDd8MHwxfHNlYXJjaHwxOHx8aG90ZWx8ZW58MHx8fHwxNjkxMjQxMjgzfDA&ixlib=rb-4.0.3&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450"
+              />
+              <div class="list-contents__text">
+                <small>
+                  <i class="fa-solid fa-map-pin"></i>
+                  그리스 도심 위치
+                </small>
+                <h2>쉐라톤 그리스</h2>
+                <div class="list-contents__info">
+                  <small class="list-contents__info-rating">
+                    <i class="fa-solid fa-star red"></i>
+                    <i class="fa-solid fa-star red"></i>
+                    <i class="fa-solid fa-star red"></i>
+                    <i class="fa-solid fa-star gray"></i>
+                    <i class="fa-solid fa-star gray"></i>
+                  </small>
+                  <div class="list-contents__info-price">
+                    <small class="italic">1박 기준</small>
+                    <p>170,000원</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="uniqueHotel-list__contents">
+              <img
+                src="https://images.unsplash.com/photo-1586611292717-f828b167408c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Mzc0NDd8MHwxfHNlYXJjaHwzM3x8aG90ZWx8ZW58MHx8fHwxNjkxMjk5NDk4fDA&ixlib=rb-4.0.3&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450"
+              />
+              <div class="list-contents__text">
+                <small>
+                  <i class="fa-solid fa-map-pin"></i>
+                  파리 도심 위치
+                </small>
+                <h2>호텔 웨스트민스트</h2>
+                <div class="list-contents__info">
+                  <small class="list-contents__info-rating">
+                    <i class="fa-solid fa-star red"></i>
+                    <i class="fa-solid fa-star red"></i>
+                    <i class="fa-solid fa-star red"></i>
+                    <i class="fa-solid fa-star red"></i>
+                    <i class="fa-solid fa-star gray"></i>
+                  </small>
+                  <div class="list-contents__info-price">
+                    <small class="italic">1박 기준</small>
+                    <p>150,0000원</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <nav>
+        <div class="menu">
+          <ul class="menu-icons">
+            <a href="hotel.html"
+              ><li>
+                <i class="fa-solid fa-bed blue"></i>
+              </li>
+            </a>
+            <a href="airplane.html"
+              ><li>
+                <i class="fa-solid fa-plane-up"></i>
+              </li>
+            </a>
+            <a href="home.html"
+              ><li>
+                <i class="fa-solid fa-house"></i>
+              </li>
+            </a>
+            <a href="home.html"
+              ><li>
+                <i class="fa-solid fa-person-biking"></i>
+              </li>
+            </a>
+            <a href="index.html"
+              ><li>
+                <i class="fa-solid fa-user"></i>
+              </li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div id="screen">
+      <h1 class="white">
+        화면 조정 중입니다. <br />
+        화면 창을 줄여주세요.
+      </h1>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/cfabfc7038.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
