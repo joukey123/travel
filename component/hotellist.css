@@ -5,17 +5,8 @@
 }
 
 .uniqueHotel-list__contents {
-<<<<<<< HEAD
   width: 47%;
-<<<<<<< HEAD
   margin-right: 12px;
-=======
-  margin-right: 10px;
->>>>>>> main
-=======
-  width: 45%;
-  margin-right: 12px;
->>>>>>> main
   margin-bottom: 20px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
@@ -28,15 +19,12 @@
 .list-contents__text {
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
   justify-content: center;
   height: 50%;
-=======
   justify-content: space-evenly;
   height: 50%;
   margin-bottom: 50px;
   padding: 3% 6%;
->>>>>>> main
 }
 .uniqueHotel-list__contents > img {
   width: 100%;
@@ -54,7 +42,7 @@
   justify-content: space-between;
 }
 .list-contents__info-rating {
-  margin-top: -30px;
+  margin-top: 25px;
 }
 .list-contents__info-rating i {
   /* color: #d5d5d5; */
