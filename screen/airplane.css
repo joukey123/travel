@@ -86,13 +86,13 @@ input[type="radio"] {
   font-size: 16px;
 }
 
-.uniqueHotel-list__contents {
-  padding: 3%;
-}
-
 .airplane-keywords {
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
+=======
+  margin-top: 10px;
+>>>>>>> main
 }
 .airplane-keywords__contents {
   background-color: #ec325f;
@@ -109,8 +109,13 @@ input[type="radio"] {
 .airplane-keywords__contents > p {
   color: white;
   font-size: 12px;
+<<<<<<< HEAD
+=======
 }
-
+.airplane-contents__nation {
+  padding: 5%;
+>>>>>>> main
+}
 .airplane-contents__info {
   margin: 5px 0;
   display: flex;
