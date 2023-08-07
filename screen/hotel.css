@@ -23,7 +23,8 @@
 .checkin,
 .checkout,
 .people {
-  width: 33%;
+  width: 30%;
+  margin-right: 4%;
   display: flex;
   flex-direction: column;
 }
