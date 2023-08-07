@@ -89,7 +89,7 @@ input[type="radio"] {
 .airplane-keywords {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .airplane-keywords__contents {
   background-color: #ec325f;
