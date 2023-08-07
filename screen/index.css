@@ -16,13 +16,13 @@
 .logo > i {
   font-size: 100px;
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-  animation: shape 5s ease-in-out;
+  animation: shape 3s ease-in-out;
 }
 .logo-title {
   opacity: 1;
-  animation: opa 8s ease-in-out;
+  animation: opa 5s ease-in-out;
 }
 .logo-title > h1 {
   font-size: 70px;
@@ -38,7 +38,7 @@
 }
 
 .login-box > a {
-  width: 40%;
+  width: 45%;
   height: 50px;
   background-color: white;
   padding: 10px;
@@ -53,14 +53,14 @@
 .email-login > i {
   width: 30%;
   height: 30px;
-  padding-top: 2px;
-  font-size: 25px;
+  font-size: 20px;
   border-right: 1px solid rgba(0, 0, 0, 0.2);
   text-align: center;
+  line-height: 30px;
 }
 .email-login > h2 {
-  font-size: 18px;
-  padding: 2px;
+  font-size: 16px;
+  line-height: 30px;
   text-align: center;
 }
 
