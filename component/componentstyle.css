@@ -94,3 +94,7 @@ input[type="submit"]:hover {
   transition: all 0.2s ease-in-out;
   background-color: #d82a56;
 }
+
+.background-gray {
+  background-color: #eee;
+}
