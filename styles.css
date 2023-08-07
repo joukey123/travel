@@ -13,3 +13,9 @@
 @import "component/hotellist.css";
 @import "component/mainimg.css";
 @import "component/nav.css";
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;400;700&display=swap");
+
+body {
+  font-family: "IBM Plex Sans KR", sans-serif;
+}
