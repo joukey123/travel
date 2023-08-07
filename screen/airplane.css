@@ -90,8 +90,12 @@ input[type="radio"] {
   display: flex;
   justify-content: space-between;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   margin-top: 10px;
+>>>>>>> main
+=======
+  margin-top: 15px;
 >>>>>>> main
 }
 .airplane-keywords__contents {
