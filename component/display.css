@@ -13,7 +13,7 @@
   text-align: center;
 }
 
-@media screen and (min-width: 393px) and (max-width: 750px) {
+@media screen and (min-width: 443px) and (max-width: 800px) {
   #screen {
     display: none;
   }
