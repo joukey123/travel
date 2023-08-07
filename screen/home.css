@@ -4,7 +4,7 @@
 }
 .bestLocation-contents {
   display: flex;
-  justify-content: first baseline;
+  justify-content: flex-start;
 }
 .bestLocation-contents > li > a {
   display: flex;
