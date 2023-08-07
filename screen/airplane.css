@@ -80,11 +80,12 @@ input[type="radio"] {
 }
 .keywords-list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .keywords-list__contents {
   border: 1px solid #ec325f;
-  width: 20%;
+  width: 25%;
   height: 40px;
   display: flex;
   align-items: center;
@@ -114,23 +115,23 @@ input[type="radio"] {
 
 .airplane-keywords {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .airplane-keywords__contents {
   background-color: #ec325f;
-  width: 40%;
+  width: 50%;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 15px;
-  margin: 3%;
+  margin: 2%;
   margin-bottom: 30px;
 }
 
 .airplane-keywords__contents > p {
   color: white;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .airplane-contents__info {
@@ -150,8 +151,8 @@ input[type="radio"] {
 }
 
 .airplane-contents__info p:last-child {
-  width: 20%;
-  text-align: end;
+  width: 50%;
+  text-align: start;
   line-height: 30px;
   font-size: 11px;
 }
@@ -165,8 +166,8 @@ input[type="radio"] {
   width: 50%;
 }
 
-.airplane-contets__price > p:last-child {
-  width: 50%;
+.airplane-contets__price + p {
+  width: 100%;
   text-align: end;
   font-weight: bold;
   color: #1aadec;

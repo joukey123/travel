@@ -37,7 +37,7 @@ p {
 }
 
 small {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 a:link,
@@ -67,6 +67,6 @@ a:hover {
 }
 
 label {
-  font-size: 13px;
-  margin-left: 5px;
+  font-size: 12px;
+  margin-left: 3px;
 }
