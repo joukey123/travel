@@ -72,15 +72,24 @@
           <h1>항공권 알아보기</h1>
           <div class="airplaneTicket-column">
             <div class="airplaneTicket-column__start">
-              <input class="nation" type="text" placeholder="출발지" />
-              <input type="date" date-placeholder="출발날짜" required />
+              <input type="date" date-placeholder="출발일" required />
+
+              <input type="date" date-placeholder="도착일" required />
             </div>
             <div class="airplaneTicket-column__icon">
-              <i class="fa-solid fa-arrow-right-arrow-left"></i>
+              <i class="fa-solid fa-arrow-right-arrow-left fa-rotate-90"></i>
             </div>
             <div class="airplaneTicket-column__comeback">
-              <input class="nation" type="text" placeholder="도착지" />
-              <input type="date" date-placeholder="도착날짜" required />
+              <input
+                class="nation background-gray"
+                type="text"
+                placeholder="출발지"
+              />
+              <input
+                class="nation background-gray"
+                type="text"
+                placeholder="도착지"
+              />
             </div>
             <div class="airplaneTicket-column__btn">
               <button>검<br />색</button>

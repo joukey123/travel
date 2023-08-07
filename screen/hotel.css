@@ -23,25 +23,10 @@
 .checkin,
 .checkout,
 .people {
-  width: 33%;
+  width: 32%;
+  margin-right: 2%;
   display: flex;
   flex-direction: column;
-}
-
-input[type="date"] {
-  border-radius: 15px;
-}
-input[type="date"]::before {
-  content: attr(date-placeholder);
-  width: 100%;
-  color: rgba(0, 0, 0, 0.3);
-}
-input[type="date"]:valid::before {
-  display: none;
-}
-input[type="date"]:valid {
-  font-size: 12px;
-  padding: 5px;
 }
 
 .searchBar-hotel__btn {

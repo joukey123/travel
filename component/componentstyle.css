@@ -35,7 +35,7 @@ input[type="text"]::placeholder {
   color: rgba(0, 0, 0, 0.3);
 }
 
-input[type="date"] {
+/* input[type="date"] {
   margin: 5px;
   border: 0;
   height: 40px;
@@ -48,12 +48,35 @@ input[type="date"] {
 
 input[type="date"]::before {
   content: attr(date-placeholder);
-  width: 100%;
   color: rgba(0, 0, 0, 0.3);
   font-size: 12px;
 }
 input[type="date"]:valid::before {
   display: none;
+} */
+
+input[type="date"] {
+  margin: 5px;
+  border: 0;
+  height: 40px;
+  margin-bottom: 10px;
+  outline: 0;
+  font-size: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 15px;
+}
+input[type="date"]::before {
+  content: attr(date-placeholder);
+  width: 100%;
+  color: rgba(0, 0, 0, 0.3);
+}
+input[type="date"]:valid::before {
+  display: none;
+}
+input[type="date"]:valid {
+  font-size: 12px;
+  padding: 5px;
 }
 
 input[type="submit"] {
@@ -70,4 +93,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
   transition: all 0.2s ease-in-out;
   background-color: #d82a56;
+}
+
+.background-gray {
+  background-color: #eee;
 }
